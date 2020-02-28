@@ -75,9 +75,17 @@
     <td>Vigente</td>
     <td>Planejar e reforçar os estudos das tecnologias utilizadas</td>
   </tr>
+  <tr>
+    <td>28/02/2020</td>
+    <td>Falta de experiência dos desenvolvedores</td>
+    <td>Alta</td>
+    <td>Todos</td>
+    <td>Vigente</td>
+    <td>Estudar as melhores tecnicas para melhorar a perfomance e otimização do sistema</td>
+  </tr>
 </table>
 
-<h2>5. Susposições e dependências</h2>
+<h2>5. Suposições e dependências</h2>
 <ul>
   <li></li>
 </ul>
