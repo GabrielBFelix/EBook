@@ -36,6 +36,7 @@
     <li>Leitores</li>
     <li>Vendedores</li>
     <li>Colecionadores</li>
+    <li>Estudantes</li>
   </ul>
 <h2>4. Riscos</h2>
   <ul>
