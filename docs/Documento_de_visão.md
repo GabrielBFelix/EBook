@@ -13,11 +13,9 @@
         <li>Operação de cadastrar usuários</li>
         <li>Operação de atualizar perfil de usuário</li>
         <li>Operação de compra de livro</li>
-        <li>Operação de aluguel de livro</li>
         <li>Operação de venda de livro</li>
         <li>Geração de relatório de venda</li>
         <li>Geração de relatório de compra</li>
-        <li>Geração de relatório de aluguel</li>
         <li>Autenticação de usuário</li>
         <li>Integração com algum sistema de pagamento</li>
       </ul>
