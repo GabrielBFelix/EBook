@@ -14,3 +14,7 @@ REDUX: https://www.youtube.com/playlist?list=PLUbb2i4BuuzBP9eD4ZO7J1qxpf4TKNchG
 REDUX(inglês): https://www.youtube.com/playlist?list=PLC3y8-rFHvwheJHvseC3I0HuYI2f46oAK  
 SCSS(inglês): https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBxQO2r_kmxn-0UqL_Rkj0t  
 Node.js: https://www.youtube.com/playlist?list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B
+
+# Documentação
+- [Documento de visão](https://github.com/GabrielBFelix/EBook/blob/master/docs/Documento_de_vis%C3%A3o.md)
+- [Modelo Conceitual e Modelo de Dados](https://github.com/GabrielBFelix/EBook/blob/master/docs/Modelo_Conceitual_e_Modelo_de_Dados.md)
