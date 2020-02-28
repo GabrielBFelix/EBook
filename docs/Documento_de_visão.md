@@ -32,55 +32,21 @@
     </li>
   </ul>
 <h2>3. Perfis dos usuários</h2>
+  <p>O sistema poderá ser utilizado por diversos usuários. Temos os seguintes perfis:</p>
+  <dl>
+    <dt>Administrador</dt>
+    <dd>Este usuário administra e modera o aplicativo e seus usuários.</dd>
+    <dt>Leitor</dt>
+    <dd>Este usuário utiliza o sistema para comprar e ler livros.</dd>
+    <dt>Vendedor</dt>
+    <dd>Este usuário utiliza o sistema para publicar seus livros.</dd>
+  </dl>
+<h2>4. Riscos</h2>
   <ul>
-    <li>Leitores</li>
-    <li>Vendedores</li>
-    <li>Colecionadores</li>
-    <li>Estudantes</li>
+    <li>Usuário não gostar da interface</li>
+    <li>Falta de marketing</li>
+    <li>Interrupção de comunicação entre servidores</li>
   </ul>
-<h2>4. Tabela de Riscos</h2>
-<table>
-  <tr>
-    <th>Data</th>
-    <th>Risco</th>
-    <th>Prioridade</th>
-    <th>Responsável</th>
-    <th>Status</th>
-    <th>Providência/Solução</th>
-  </tr>
-  <tr>
-    <td>28/02/2020</td>
-    <td>Usuário não gostar da interface</td>
-    <td>Média</td>
-    <td>Todos</td>
-    <td>Vigente</td>
-    <td>Desenvolver a interface com o feedback do usuário</td>
-  </tr>
-  <tr>
-    <td>28/02/2020</td>
-    <td>Concorrência</td>
-    <td>Baixa</td>
-    <td>Todos</td>
-    <td>Vigente</td>
-    <td>Analisar o motivo da preferência dos usuários pela concorrência</td>
-  </tr>
-  <tr>
-    <td>28/02/2020</td>
-    <td>Tempo de treinamento</td>
-    <td>Alta</td>
-    <td>Todos</td>
-    <td>Vigente</td>
-    <td>Planejar e reforçar os estudos das tecnologias utilizadas</td>
-  </tr>
-  <tr>
-    <td>28/02/2020</td>
-    <td>Falta de Experiência dos desenvolvedores</td>
-    <td>Alta</td>
-    <td>Todos</td>
-    <td>Vigente</td>
-    <td>Estudar tecnicas de melhoras na perfomance e otimização de sistema e aplicar no projeto</td>
-  </tr>
-</table>
 
 <h2>5. Susposições e dependências</h2>
 <ul>
