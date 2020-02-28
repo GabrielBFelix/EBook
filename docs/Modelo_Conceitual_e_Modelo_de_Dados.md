@@ -22,6 +22,8 @@
 | 28/02/2020 | 1.0    | Documento Inicial | Gabriel Batista |
   
 # 2 Modelo Conceitual  
+
+![imagem](https://github.com/GabrielBFelix/EBook/blob/master/docs/ModeloConceitual.png)
   
 ## 2.1 Descrição das Entidades  
   
