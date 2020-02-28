@@ -25,7 +25,13 @@
 
 ![imagem](https://github.com/GabrielBFelix/EBook/blob/master/docs/ModeloConceitual.png)
   
-## 2.1 Descrição das Entidades  
+## 2.1 Descrição das Entidades
+
+  Usuário: Entidade que representará as pessoas que acessam o sistema. Além das próprias informações armazenadas, eles tem acesso a compra de livros que estão a venda.
+  Endereço: Entidade dependente de usuário, contendo informações de sua localização.
+  Livros: Produto que vai ser vendido, contendo as mais diversas informações necessarias para o comprador.
+  Gênero: Diversos tipos de categorias que estão atribuidas aos livros.
+  Compra: Entidade que vai estabelecer a relação entre o Usuario e o Livro que deseja comprar.
   
 # 3 Modelo de Dados  
   
