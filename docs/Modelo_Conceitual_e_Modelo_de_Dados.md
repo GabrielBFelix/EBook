@@ -43,17 +43,40 @@
   
 # 4 Dicionário de Dados  
 
-| Tabela  | Nome da coluna   | Tipo de dado | comprimento | Restrições   | Descrição                                                |
-|---------|------------------|--------------|-------------|--------------|----------------------------------------------------------|
-| Usuario | codUsuario       | INT          | 4 bytes     | PK, NOT NULL | Numero de verificação do usuário, gerado automaticamente |
-|         | nome             | VARCHAR      | 40 bytes    |              | Nome do usuário                                          |
-|         | senha            | VARCHAR      | 40 bytes    |              | Senha do usuário                                         |
-|         | email            | VARCHAR      | 40 bytes    |              | email do usuário                                         |
-|         | dataDeNascimento | DATE         | 8 bytes     |              | Data de nascimento do usuário                            |
-|         | CPF              | VARCHAR      | 40 bytes    |              | CPF do usuário                                           |
-|         | sexo             | VARCHAR      | 40 bytes    |              | Sexo do usuário                                          |
-|         | contato          | INT          | 4 bytes     |              | Numero do usuário                                        |
-|         | codEndereco      | VARCHAR      | 40 bytes    | FK           | Chave estrangeira que aponta para o endereço do usuário. |
-
+|  Tabela  |  Nome da coluna  | Tipo de dado | comprimento |    Restrições    |                                               Descrição                                               |
+|:--------:|:----------------:|:------------:|:-----------:|:----------------:|:-----------------------------------------------------------------------------------------------------:|
+|  Usuario |    codUsuario    |      INT     |   4 bytes   |   PK, NOT NULL   |                        Numero de verificação do usuário, gerado automaticamente                       |
+|          |       nome       |    VARCHAR   |   40 bytes  |                  |                                            Nome do usuário                                            |
+|          |       senha      |    VARCHAR   |   40 bytes  |                  |                                            Senha do usuário                                           |
+|          |       email      |    VARCHAR   |   40 bytes  |                  |                                            email do usuário                                           |
+|          | dataDeNascimento |     DATE     |   3 bytes   |                  |                                     Data de nascimento do usuário                                     |
+|          |        CPF       |    VARCHAR   |   40 bytes  |                  |                                             CPF do usuário                                            |
+|          |       sexo       |    VARCHAR   |   40 bytes  |                  |                                            Sexo do usuário                                            |
+|          |      contato     |      INT     |   4 bytes   |                  |                                           Numero do usuário                                           |
+|          |    codEndereco   |    VARCHAR   |   40 bytes  |        FK        |                        Chave estrangeira que aponta para o endereço do usuário.                       |
+| Endereço |        cod       |      INT     |   4 bytes   |   PK, NOT NULL   |                       Numero de verificação do Endereço, gerado automaticamente                       |
+|          |       pais       |    VARCHAR   |   40 bytes  |                  |                                         Pais local do Endereço                                        |
+|          |      estado      |    VARCHAR   |   40 bytes  |                  |                                           Estado do Endereço                                          |
+|          |      cidade      |    VARCHAR   |   40 bytes  |                  |                                           Cidade do Endereço                                          |
+|          |      bairro      |    VARCHAR   |   40 bytes  |                  |                                           Bairro do endereço                                          |
+|          |        rua       |    VARCHAR   |   40 bytes  |                  |                                            Rua do Endereço                                            |
+|          |      numero      |    VARCHAR   |   40 bytes  |                  |                                           Numero do Endereço                                          |
+|          |    complemento   |    VARCHAR   |   40 bytes  |                  |                                    Complemento opcional do Endereço                                   |
+|  Compra  |    codUsuario    |      INT     |   4 bytes   | PK, FK, NOT NULL | Chave estrangeira do Usuário que fez a Compra, junto com o  codLivro forma a chave primária da Compra |
+|          |     codLivro     |      INT     |   4 bytes   | PK, FK, NOT NULL |  Chave estrangeira do Livro que foi comprado, junto com o codLivro  forma a chave primária da Compra  |
+|          |       data       |     DATE     |   3 bytes   |                  |                                             Data da compra                                            |
+|   Livro  |     codLivro     |      INT     |   4 bytes   |   PK, NOT NULL   |                         Numero de verificação do Livro, gerado automaticamente                        |
+|          |      titulo      |    VARCHAR   |   40 bytes  |                  |                                            Titulo do livro                                            |
+|          |     descricao    |    VARCHAR   |   40 bytes  |                  |                                      Descrição / Resumo do Livro                                      |
+|          |       autor      |    VARCHAR   |   40 bytes  |                  |                                             Autor do Livro                                            |
+|          |      editora     |    VARCHAR   |   40 bytes  |                  |                                            Editora do Livro                                           |
+|          |     idGenero     |      INT     |   4 bytes   |        FK        |                          Chave estrangeira que aponta para o gênero do livro                          |
+|          |      idioma      |    VARCHAR   |   40 bytes  |                  |                                  Idioma em que o livro foi publicado                                  |
+|          |        ano       |    VARCHAR   |   40 bytes  |                  |                                    Ano em que o livro foi publicado                                   |
+|          |    quantidade    |      INT     |   4 bytes   |                  |                                    Quantidade de livros no estoque                                    |
+|          |       preco      |     FLOAT    |   8 bytes   |                  |                                             Preço do Livro                                            |
+|  Genero  |        id        |      INT     |   4 bytes   |   PK, NOT NULL   |                        Numero de verificação do Genero, gerado automaticamente                        |
+|          |       tipo       |    VARCHAR   |   40 bytes  |                  |                                             Tipo do Genero                                            |
+|          |     descricao    |    VARCHAR   |   40 bytes  |                  |                                          Descrição do Genero                                          |
 
 # 5 Referências  
