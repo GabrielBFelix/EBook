@@ -42,5 +42,18 @@
   O Modelo Entidade Relacionamento (MER) é um modelo conceitual de dados que tem como finalidade descrever os objetos envolvidos em um domínio de negócios, com suas características e como elas se relacionam entre si. Os principais componentes desses modelos são as entidades, suas relações e armazenamento em bancos de dados. Em termos gerais, um modelo entidade relacionamento é uma maneira sistemática de descrever e definir um processo de negócio. As entidades são os objetos ou partes envolvidas em um domínio e podem ser físicas, quando realmente existem no mundo real, ou lógicas, quando não são objetos físicos, mas que fazem sentido dentro de um certo domínio de negócios. Já os relacionamentos referem-se às relações que ocorrem entre as entidades.
   
 # 4 Dicionário de Dados  
-  
+
+| Tabela  | Nome da coluna   | Tipo de dado | comprimento | Restrições   | Descrição                                                |
+|---------|------------------|--------------|-------------|--------------|----------------------------------------------------------|
+| Usuario | codUsuario       | INT          | 4 bytes     | PK, NOT NULL | Numero de verificação do usuário, gerado automaticamente |
+|         | nome             | VARCHAR      | 40 bytes    |              | Nome do usuário                                          |
+|         | senha            | VARCHAR      | 40 bytes    |              | Senha do usuário                                         |
+|         | email            | VARCHAR      | 40 bytes    |              | email do usuário                                         |
+|         | dataDeNascimento | DATE         | 8 bytes     |              | Data de nascimento do usuário                            |
+|         | CPF              | VARCHAR      | 40 bytes    |              | CPF do usuário                                           |
+|         | sexo             | VARCHAR      | 40 bytes    |              | Sexo do usuário                                          |
+|         | contato          | INT          | 4 bytes     |              | Numero do usuário                                        |
+|         | codEndereco      | VARCHAR      | 40 bytes    | FK           | Chave estrangeira que aponta para o endereço do usuário. |
+
+
 # 5 Referências  
