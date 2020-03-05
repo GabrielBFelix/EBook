@@ -12,8 +12,28 @@
       <ul>
         <li>Operação de cadastrar usuários</li>
         <li>Operação de atualizar perfil de usuário</li>
-        <li>Operação de compra de livro</li>
-        <li>Operação de venda de livro</li>
+        <li>Operação de excluir usuários</li>
+        <li>Operação de visualizar usuários</li>
+        <li>Operação de cadastrar livro</li>
+        <li>Operação de atualizar livro</li>
+        <li>Operação de excluir livro</li>
+        <li>Operação de visualizar livro</li>
+        <li>Operação de cadastrar endereço</li>
+        <li>Operação de atualizar endereço</li>
+        <li>Operação de excluir endereço</li>
+        <li>Operação de visualizar endereço</li>
+        <li>Operação de cadastro categoria</li>
+        <li>Operação de atualização categoria</li>
+        <li>Operação de excluir categoria</li>
+        <li>Operação de visualizar categoria</li>
+        <li>Operação de cadastro vendas</li>
+        <li>Operação de atualizar vendas</li>
+        <li>Operação de excluir vendas</li>
+        <li>Operação de visualizar vendas</li>
+        <li>Operação de cadastro compra</li>
+        <li>Operação de atualizar compra</li>
+        <li>Operação de excluir compra</li>
+        <li>Operação de visualizar compra</li>
         <li>Geração de relatório de venda</li>
         <li>Geração de relatório de compra</li>
         <li>Autenticação de usuário</li>
