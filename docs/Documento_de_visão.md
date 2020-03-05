@@ -43,9 +43,11 @@
     <li><h3>Requisitos não funcionais</h3>
       <ul>
         <li>Perfomance</li>
-        <li>Responsividade</li>
+        <li>Usabilidade</li>
         <li>Segurança</li>
         <li>Confiabilidade</li>
+        <li>Eficiência</li>
+        <li>Interoperabilidade</li>
       </ul>
     </li>
   </ul>
