@@ -9,47 +9,57 @@
 <h2>2. Descrição geral </h2>
   <ul>
     <li><h3>Requisitos Funcionais :</h3>
-      <ul>
-        <li>RF001 - Operação de cadastrar usuários</li>
-        <li>RF002 - Operação de atualizar perfil de usuário</li>
-        <li>RF003 - Operação de excluir usuários</li>
-        <li>RF004 - Operação de visualizar usuários</li>
-        <li>RF005 - Operação de cadastrar livro</li>
-        <li>RF006 - Operação de atualizar livro</li>
-        <li>RF007 - Operação de excluir livro</li>
-        <li>RF008 - Operação de visualizar livro</li>
-        <li>RF009 - Operação de cadastrar endereço</li>
-        <li>RF010 - Operação de atualizar endereço</li>
-        <li>RF012 - Operação de excluir endereço</li>
-        <li>RF013 - Operação de visualizar endereço</li>
-        <li>RF014 - Operação de cadastro categoria</li>
-        <li>RF015 - Operação de atualização categoria</li>
-        <li>RF016 - Operação de excluir categoria</li>
-        <li>RF017 - Operação de visualizar categoria</li>
-        <li>RF018 - Operação de cadastro vendas</li>
-        <li>RF019 - Operação de atualizar vendas</li>
-        <li>RF020 - Operação de excluir vendas</li>
-        <li>RF021 - Operação de visualizar vendas</li>
-        <li>RF022 - Operação de cadastro compra</li>
-        <li>RF023 - Operação de atualizar compra</li>
-        <li>RF024 - Operação de excluir compra</li>
-        <li>RF025 - Operação de visualizar compra</li>
-        <li>RF026 - Geração de relatório de venda</li>
-        <li>RF027 - Geração de relatório de compra</li>
-        <li>RF028 - Autenticação de usuário</li>
-        <li>RF029 - Integração com algum sistema de pagamento</li>
-        <li>RF030 - Adicionar um livro a lista de desejos</li>
-      </ul>
+      <table>
+        <thead>
+          <tr><th>Cod</th> <th>Nome</th> <th>Descrição</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>RF001</td><td>Operação de cadastrar usuários</td><td></td></tr>
+        <tr><td>RF002</td><td>Operação de atualizar perfil de usuário</td><td></td></tr>
+        <tr><td>RF003</td><td>Operação de excluir usuários</td><td></td></tr>
+        <tr><td>RF004</td><td>Operação de visualizar usuários</td><td></td></tr>
+        <tr><td>RF005</td><td>Operação de cadastrar livro</td><td></td></tr>
+        <tr><td>RF006</td><td>Operação de atualizar livro</td><td></td></tr>
+        <tr><td>RF007</td><td>Operação de excluir livro</td><td></td></tr>
+        <tr><td>RF008</td><td>Operação de visualizar livro</td><td></td></tr>
+        <tr><td>RF009</td><td>Operação de cadastrar endereço</td><td></td></tr>
+        <tr><td>RF010</td><td>Operação de atualizar endereço</td><td></td></tr>
+        <tr><td>RF012</td><td>Operação de excluir endereço</td><td></td></tr>
+        <tr><td>RF013</td><td>Operação de visualizar endereço</td><td></td></tr>
+        <tr><td>RF014</td><td>Operação de cadastro categoria</td><td></td></tr>
+        <tr><td>RF015</td><td>Operação de atualização categoria</td><td></td></tr>
+        <tr><td>RF016</td><td>Operação de excluir categoria</td><td></td></tr>
+        <tr><td>RF017</td><td>Operação de visualizar categoria</td><td></td></tr>
+        <tr><td>RF018</td><td>Operação de cadastro vendas</td><td></td></tr>
+        <tr><td>RF019</td><td>Operação de atualizar vendas</td><td></td></tr>
+        <tr><td>RF020</td><td>Operação de excluir vendas</td><td></td></tr>
+        <tr><td>RF021</td><td>Operação de visualizar vendas</td><td></td></tr>
+        <tr><td>RF022</td><td>Operação de cadastro compra</td><td></td></tr>
+        <tr><td>RF023</td><td>Operação de atualizar compra</td><td></td></tr>
+        <tr><td>RF024</td><td>Operação de excluir compra</td><td></td></tr>
+        <tr><td>RF025</td><td>Operação de visualizar compra</td><td></td></tr>
+        <tr><td>RF026</td><td>Geração de relatório de venda</td><td></td></tr>
+        <tr><td>RF027</td><td>Geração de relatório de compra</td><td></td></tr>
+        <tr><td>RF028</td><td>Autenticação de usuário</td><td></td></tr>
+        <tr><td>RF029</td><td>Integração com algum sistema de pagamento</td><td></td></tr>
+        <tr><td>RF030</td><td>Adicionar um livro a lista de desejos</td><td></td></tr>
+        </tbody>
+      </table>
     </li>
     <li><h3>Requisitos não funcionais</h3>
-      <ul>
-        <li>RNF001 - Perfomance</li>
-        <li>RNF002 - Usabilidade</li>
-        <li>RNF003 - Segurança</li>
-        <li>RNF004 - Confiabilidade</li>
-        <li>RNF005 - Eficiência</li>
-        <li>RNF006 - Interoperabilidade</li>
-      </ul>
+      <table>
+        <thead>
+          <tr><th>Cod</th><th>Nome</th><th>Descrição</th></tr>
+        </thead>
+        <tbody>
+        <tr><td>RNF001</td><td>Perfomance</td><td></td></tr>
+        <tr><td>RNF002</td><td>Usabilidade</td><td></td></tr>
+        <tr><td>RNF003</td><td>Segurança</td><td></td></tr>
+        <tr><td>RNF004</td><td>Confiabilidade</td><td></td></tr>
+        <tr><td>RNF005</td><td>Eficiência</td><td></td></tr>
+        <tr><td>RNF006</td><td>Interoperabilidade</td><td></td></tr>
+        </tbody>
+      </table>
     </li>
   </ul>
 <h2>3. Perfis dos usuários</h2>
@@ -110,4 +120,3 @@
 <ul>
   <li></li>
 </ul>
-
