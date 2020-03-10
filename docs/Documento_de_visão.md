@@ -10,44 +10,44 @@
   <ul>
     <li><h3>Requisitos Funcionais :</h3>
       <ul>
-        <li>Operação de cadastrar usuários</li>
-        <li>Operação de atualizar perfil de usuário</li>
-        <li>Operação de excluir usuários</li>
-        <li>Operação de visualizar usuários</li>
-        <li>Operação de cadastrar livro</li>
-        <li>Operação de atualizar livro</li>
-        <li>Operação de excluir livro</li>
-        <li>Operação de visualizar livro</li>
-        <li>Operação de cadastrar endereço</li>
-        <li>Operação de atualizar endereço</li>
-        <li>Operação de excluir endereço</li>
-        <li>Operação de visualizar endereço</li>
-        <li>Operação de cadastro categoria</li>
-        <li>Operação de atualização categoria</li>
-        <li>Operação de excluir categoria</li>
-        <li>Operação de visualizar categoria</li>
-        <li>Operação de cadastro vendas</li>
-        <li>Operação de atualizar vendas</li>
-        <li>Operação de excluir vendas</li>
-        <li>Operação de visualizar vendas</li>
-        <li>Operação de cadastro compra</li>
-        <li>Operação de atualizar compra</li>
-        <li>Operação de excluir compra</li>
-        <li>Operação de visualizar compra</li>
-        <li>Geração de relatório de venda</li>
-        <li>Geração de relatório de compra</li>
-        <li>Autenticação de usuário</li>
-        <li>Integração com algum sistema de pagamento</li>
+        <li>RF001 - Operação de cadastrar usuários</li>
+        <li>RF002 - Operação de atualizar perfil de usuário</li>
+        <li>RF003 - Operação de excluir usuários</li>
+        <li>RF004 - Operação de visualizar usuários</li>
+        <li>RF005 - Operação de cadastrar livro</li>
+        <li>RF006 - Operação de atualizar livro</li>
+        <li>RF007 - Operação de excluir livro</li>
+        <li>RF008 - Operação de visualizar livro</li>
+        <li>RF009 - Operação de cadastrar endereço</li>
+        <li>RF010 - Operação de atualizar endereço</li>
+        <li>RF012 - Operação de excluir endereço</li>
+        <li>RF013 - Operação de visualizar endereço</li>
+        <li>RF014 - Operação de cadastro categoria</li>
+        <li>RF015 - Operação de atualização categoria</li>
+        <li>RF016 - Operação de excluir categoria</li>
+        <li>RF017 - Operação de visualizar categoria</li>
+        <li>RF018 - Operação de cadastro vendas</li>
+        <li>RF019 - Operação de atualizar vendas</li>
+        <li>RF020 - Operação de excluir vendas</li>
+        <li>RF021 - Operação de visualizar vendas</li>
+        <li>RF022 - Operação de cadastro compra</li>
+        <li>RF023 - Operação de atualizar compra</li>
+        <li>RF024 - Operação de excluir compra</li>
+        <li>RF025 - Operação de visualizar compra</li>
+        <li>RF026 - Geração de relatório de venda</li>
+        <li>RF027 - Geração de relatório de compra</li>
+        <li>RF028 - Autenticação de usuário</li>
+        <li>RF029 - Integração com algum sistema de pagamento</li>
       </ul>
     </li>
     <li><h3>Requisitos não funcionais</h3>
       <ul>
-        <li>Perfomance</li>
-        <li>Usabilidade</li>
-        <li>Segurança</li>
-        <li>Confiabilidade</li>
-        <li>Eficiência</li>
-        <li>Interoperabilidade</li>
+        <li>RNF001 - Perfomance</li>
+        <li>RNF002 - Usabilidade</li>
+        <li>RNF003 - Segurança</li>
+        <li>RNF004 - Confiabilidade</li>
+        <li>RNF005 - Eficiência</li>
+        <li>RNF006 - Interoperabilidade</li>
       </ul>
     </li>
   </ul>
