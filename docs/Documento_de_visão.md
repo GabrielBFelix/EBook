@@ -38,6 +38,7 @@
         <li>RF027 - Geração de relatório de compra</li>
         <li>RF028 - Autenticação de usuário</li>
         <li>RF029 - Integração com algum sistema de pagamento</li>
+        <li>RF030 - Adicionar um livro a lista de desejos</li>
       </ul>
     </li>
     <li><h3>Requisitos não funcionais</h3>
