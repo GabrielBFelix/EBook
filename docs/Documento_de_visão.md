@@ -30,11 +30,11 @@
         <tr><td>RF015</td><td>Operação de atualização categoria</td><td>Aqui o usuário irá atualizar a categoria do livro ao qual ele irá vender</td></tr>
         <tr><td>RF016</td><td>Operação de excluir categoria</td><td>Exclui uma categoria do banco de dados.</td></tr>
         <tr><td>RF017</td><td>Operação de visualizar categoria</td><td>Mostra as características/atributos de uma categoria.</td></tr>
-        <tr><td>RF018</td><td>Operação de cadastro vendas</td><td>Cadastra uma venda no banco de dados.</td></tr>
+        <tr><td>RF018</td><td>Operação de cadastro vendas</td><td>Cadastra uma venda no banco de dados, que contêm todo o conjunto de itens adicionados pela compra.</td></tr>
         <tr><td>RF019</td><td>Operação de atualizar vendas</td><td>Um Usuário pode editar o conteúdo de uma venda antes de ser finalizada.</td></tr>
         <tr><td>RF020</td><td>Operação de cancelar vendas</td><td>Um Cliente pode cancelar uma venda antes de ser confirmada, fazendo com que seus dados sejam removidos do carrinho, no entanto, apenas um Admnistrador pode cancelar uma compra após ser confirmada por um Cliente.</td></tr>
         <tr><td>RF021</td><td>Operação de visualizar vendas</td><td>Mostra os atributos de uma venda, como produtos comprados, data, etc.</td></tr>
-        <tr><td>RF022</td><td>Operação de cadastro compra</td><td>Cadastra uma compra no banco de dados.</td></tr>
+        <tr><td>RF022</td><td>Operação de cadastro compra</td><td>Cadastra uma compra de livro no banco de dados e a quantidade.</td></tr>
         <tr><td>RF023</td><td>Operação de atualizar compra</td><td>Um Usuário pode editar uma compra antes dela ser finalizada.</td></tr>
         <tr><td>RF024</td><td>Operação de cancelar compra</td><td>Um Cliente pode cancelar uma compra antes de ser confirmada, fazendo com que seus dados sejam removidos do carrinho, no entanto, apenas um Admnistrador pode cancelar uma compra após ser confirmada por um Cliente.</td></tr>
         <tr><td>RF025</td><td>Operação de visualizar compra</td><td>Um cliente pode usar essa operação para mostrar as características de uma compra realizada na sua conta.</td></tr>
@@ -57,7 +57,7 @@
         <tr><td>RNF003</td><td>Segurança</td><td>Os dados cadastrados no sistema devem permanecer seguros, de modo que o acesso a eles seja restrito a apenas ao usuário ou administrador</td></tr>
         <tr><td>RNF004</td><td>Confiabilidade</td><td>Certeza de que as informações serão repassadas da forma correta ao usuário e de que o sistema pode sustentar adversidades como ataques, quedas de energia, etc.</td></tr>
         <tr><td>RNF005</td><td>Eficiência</td><td>O sistema cumpre oque pede utilizando poucos recursos.</td></tr>
-        <tr><td>RNF006</td><td>Interoperabilidade</td><td>O sistema pretende trocar dados de forma transparente com outros sistemas.</td></tr>
+        <tr><td>RNF006</td><td>Interoperabilidade</td><td>O sistema pretende trocar dados de forma transparente com o banco de dados.</td></tr>
         </tbody>
       </table>
     </li>
