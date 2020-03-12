@@ -39,18 +39,50 @@
   </tr>
 </table>
 <h2>2.	Objetivos do projeto</h2>
-<p>O Sistema X é um software de gerenciamento de muitas coisas que pode ser usado na gerência de outras mil e uma coisas, esse texto deve descrever de maneira simples e objetiva o que de fato é o sistema a ser desenvolvido.</p>
+<p>O Sistema a ser desenvolvido será um sistema de compras de livros, onde o usuário cadastrado poderá comprar livros que estão disponíveis, tais livros serão adicionados pelos próprios usuários, ou seja, os usuários terão opções de comprar / vender.
+O sistema irá gerar relatórios com o objetivo de manter o usuário informado sobre os tipos de transações que ele fez e mostrando informações sobre os livros que ele colocou a venda.</p>
 <h2>3.	Justificativa do projeto</h2>
-<p>Aqui deve ser explanado a ou as motivações que levaram ao desenvolvimento do projeto em questão.</p>
+<p>Temos em mente que a ideia de um E-commerce focado na venda de livros já existe no mercado, no entanto, pretendemos inovar na questão das funcionalidades desse site, algumas das funcionalidades planejadas até agora foram: A própria adição de livros por parte dos usuários, uma geração de relatórios que vão conter suas transações e informações detalhadas das compras, entre outras características/funcionalidades que serão adicionadas no decorrer do projeto.</p>
 <h2>4.	Descrição dos produtos/entregáveis do projeto.</h2>
-<p>Aqui geralmente são listados os documentos bem como módulos que serão desenvolvidos para o sistema.</p>
+<p>Por parte da documentação temos: Documento de visão, Modelo Conceitual e Modelo de Dados, Analise de Ponto de Função, Lista de User Stories, Projeto Arquitetural, Termo de Abertura de Projeto, Termo de Fechamento de Projeto. Como também a entrega do próprio software.</p>
 <h2>5.	Restrições para o projeto</h2>
-<p>As situações em que o sistema deve operar, como por exemplo: navegadores, localidade, condições, períodos de tempo bem como outras características que de fato sejam “limitadores” no uso do sistema</p>
+<p>Prazo de entrega de 6 meses, Necessidade de treinamento da equipe, Dificuldade de se reunir com o grupo devido distância das residências, fatores climáticos quando o sistema estiver operante.</p>
 <h2>6.	Cronograma de macros</h2>
-<p>Aqui serão listadas as principais entregas (ou milestones) bem como suas datas durante o desenvolvimento do projeto, é importante que esse cronograma se faça presente, pois mesmo que essas datas sofram alguma alteração, ainda se é possível por exemplos, ter a ideia sobre os custos do projeto.
-Obs: É necessário o cronograma em forma de tabela com todos os macros/milestones bem como suas respectivas datas.
-</p>
+<img src="Cronograma_de_Macros.png" />
 <h2>7.	Partes interessadas</h2>
-<p>Aqui devem ser listados os interessados no presente projeto, são exemplos de partes interessadas: Desenvolvedores, Cliente que solicitou o sistema e Usuários final do sistema. Podem haver mais dependendo do sistema a ser desenvolvido.</p>
+<p>A equipe e o Cliente</p>
 <h2>8.	Riscos identificados</h2>
-<p>Aqui devem ser destacados os risco que foram identificados na fase de planejamento do projeto (também presentes no documento de visão). Porém neste ponto, eles devem ser dispersos em forma de tabela contendo: Riscos, Consequência e providências a serem tomadas.</p>
+<table>
+	<tbody>
+		<tr>
+			<th>Data</th>
+			<th>Risco</th>
+			<th>Consequ&ecirc;ncia</th>
+			<th>Provid&ecirc;ncia/Solu&ccedil;&atilde;o</th>
+		</tr>
+		<tr>
+			<td>28/02/2020</td>
+			<td>Usu&aacute;rio n&atilde;o gostar da interface</td>
+			<td>Insatisfa&ccedil;&atilde;o por parte do Cliente</td>
+			<td>Desenvolver a interface com o feedback do usu&aacute;rio</td>
+		</tr>
+		<tr>
+			<td>28/02/2020</td>
+			<td>Concorr&ecirc;ncia</td>
+			<td>Falta de destaque no mercado</td>
+			<td>Analisar o motivo da prefer&ecirc;ncia dos usu&aacute;rios pela concorr&ecirc;ncia</td>
+		</tr>
+		<tr>
+			<td>28/02/2020</td>
+			<td>Tempo de treinamento</td>
+			<td>Distribui&ccedil;&atilde;o do tempo entre desenvolvimento e treinamento</td>
+			<td>Planejar e refor&ccedil;ar os estudos das tecnologias utilizadas</td>
+		</tr>
+		<tr>
+			<td>28/02/2020</td>
+			<td>Falta de experi&ecirc;ncia dos desenvolvedores</td>
+			<td>Utiliza&ccedil;&atilde;o de formas de programa&ccedil;&atilde;o obsoletas causando outros problemas como a diminui&ccedil;&atilde;o na performance.</td>
+			<td>Estudar as melhores tecnicas para melhorar a perfomance e otimiza&ccedil;&atilde;o do sistema</td>
+		</tr>
+	</tbody>
+</table>
