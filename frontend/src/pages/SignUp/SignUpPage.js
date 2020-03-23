@@ -8,16 +8,16 @@ import { withFormik } from 'formik';
 
 import { FormContainer, ButtonsContainer } from './SignUpPageStyles';
 
-const SignUpPage = ({ values: { name, password, email, cpf, phone }, history }) => {
+const SignUpPage = ({ history }) => {
     return (
         <FormContainer>
-            <Input type="text" value={name} name="name" label="Nome" id="name" required></Input>
+            <Input type="text" name="name" label="Nome" id="name" required></Input>
 
-            <Input type="email" value={email} name="email" label="Email" required id="email"></Input>
-            <Input type="password" value={password} name="password" label="Senha" required id="password"></Input>
-            <Input type="text" value={cpf} name="cpf" label="Cpf" required id="cpf"></Input>
-            <Input type="phone" value={phone} name="phone" label="Número" required id="phone"></Input>
-
+            <Input type="email" name="email" label="Email" required id="email"></Input>
+            <Input type="password" name="password" label="Senha" required id="password"></Input>
+            <Input type="text" name="cpf" label="Cpf" required id="cpf"></Input>
+            <Input type="phone" name="phone" label="Número" required id="phone"></Input>
+            <Input type="date" name="birthday" label="Data de Nascimento" required id="birthday"></Input>
             <ButtonsContainer>
                 <Button inverted="true" type="reset">
                     Resetar
@@ -35,21 +35,29 @@ export default withFormik({
         email: '',
         cpf: '',
         phone: '',
+        birthday: '',
     }),
-    
-    validationSchema: () => {
-        return Yup.object({
-            name: Yup.string().required(),
-            password: Yup.string()
-                .required()
-                .min(7),
-            email: Yup.string()
-                .email()
-                .required(),
-            cpf: Yup.string()
-                .required()
-                .min(14),
-            phone: Yup.string().required(),
-        });
-    },
+
+    validationSchema: Yup.object().shape({
+        name: Yup.string().required(),
+        password: Yup.string()
+            .required()
+            .min(7),
+        email: Yup.string()
+            .email()
+            .required(),
+        cpf: Yup.string()
+            .required()
+            .min(14),
+        phone: Yup.string().required(),
+        birthday: Yup.date()
+            .max(`${new Date().getFullYear()}/${new Date().getMonth() + 1}/${new Date().getDate()}`)
+            .required(),
+    }),
+
+    handleSubmit: (values) => {
+        console.log(values);
+        //MAKE API REQUEST HERE
+
+    }
 })(SignUpPage);

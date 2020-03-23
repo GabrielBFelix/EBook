@@ -5,6 +5,10 @@ import {Link} from 'react-router-dom'
 export const HeaderContainer = styled.header`
     width: 100vw;
     height: 10vh;
+
+    @media screen and (min-width: 750px){
+        width: 90vw;
+    }
 `;
 
 export const NavContainer = styled.nav`
@@ -46,6 +50,7 @@ export const StyledLink = styled(Link)`
         justify-content: center;
         align-items: center;
         color: #8C8029;
+        text-align: center;
     }
 `;
 

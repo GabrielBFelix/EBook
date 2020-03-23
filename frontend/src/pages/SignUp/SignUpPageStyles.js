@@ -11,16 +11,17 @@ export const FormContainer = styled(Form)`
         align-items: center;
         flex-wrap: wrap;
 
-        & > * {
-            padding: 1rem 0;
+        & > div:not(:last-child) {
+            padding : 1rem 0;
             width: 40%;
         }
+
     }
 `;
 
 
 export const ButtonsContainer = styled.div`
-    margin-top: 3rem;
+    padding: 1rem 0;
     width: 70%;
     display: flex;
     justify-content: space-evenly;

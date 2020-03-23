@@ -12,9 +12,9 @@ export const FormContainer = styled(Form)`
     height : 80vh;
     margin: 2rem 0 0 0;
     flex: 1;
-    border-right: 1px solid #000;
     @media screen and (min-width: 750px){
         width: 45vw;
+        border-right: 1px solid #000;
     }
 `;
 

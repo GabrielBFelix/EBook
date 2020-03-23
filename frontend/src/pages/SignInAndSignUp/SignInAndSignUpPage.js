@@ -13,7 +13,7 @@ const SignInAndSignUp = () => {
             <SignIn></SignIn>
             <AsideContainer>
                 <StyledText>Ainda não é cadastrado ?</StyledText>
-                <Button to="/signUp" as={Link} inverted>
+                <Button to="/signUp" as={Link} inverted='true'>
                     Cadastrar
                 </Button>
             </AsideContainer>
